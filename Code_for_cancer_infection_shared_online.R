@@ -953,7 +953,7 @@ can_biom <- can_biom %>%
   left_join(c_S_GLOB, by="id") %>%
   left_join(master, by="id")
 
-saveRDS(can_biom, "W:/C6_AmorisGuest/Dang Wei/Bio_com_cancer/Working data/cancer_bio_trajectories.RDS")
+saveRDS(can_biom, ".../cancer_bio_trajectories.RDS")
 #-------------------------------------------------------------------------------
 
 # to make the figure of biomarker trajectories
@@ -1094,7 +1094,7 @@ dev.off() #turn off develop
 library(biostat3)  
 library(rstpm2)  
 rm(list = ls())
-master <- readRDS("W:/C6_AmorisGuest/Dang Wei/Bio_com_cancer/Working data/cancer_bio_trajectories.RDS")
+master <- readRDS(".../cancer_bio_trajectories.RDS")
 
 master <- master %>%
   mutate(can_yearc=ifelse(can_year>1984 & can_year<1996, 0, 1),
