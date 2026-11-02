@@ -1,0 +1,2 @@
+# Longitudinal-trajectories-of-metabolic-and-inflammatory-biomarkers-and-post-cancer-infection-risk-
+We used the Swedish AMORIS (Apolipoprotein-related MOrtality RISk) cohort to investigate the longitudinal trajectories of 18 metabolic and inflammatory biomarkers in blood during the 10 years before a cancer diagnosis, and to evaluate their associations with the risk of severe infections following the cancer diagnosis.
